@@ -43,4 +43,11 @@ public class Candidate {
         System.out.println("Examination centre: " + examinationCentre);
     }
 
+    public static void main(String[] args) {
+        displayExamSettings();
+
+        Candidate candidate1 = new Candidate("Amina", "Kampala Secondary School");
+        Candidate candidate2 = new Candidate("Brian", "Jinja High School");
+    }
+
 }
