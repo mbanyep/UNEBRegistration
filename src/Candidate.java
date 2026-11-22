@@ -35,4 +35,12 @@ public class Candidate {
         System.out.println("Registration fee: UGX " + registrationFee);
         System.out.println("Grading policy: " + gradingPolicy);
     }
+
+    public void displayCandidateDetails() {
+        System.out.println("Candidate: " + candidateName);
+        System.out.println("School: " + schoolName);
+        System.out.println("Registration status: " + registrationStatus);
+        System.out.println("Examination centre: " + examinationCentre);
+    }
+
 }
