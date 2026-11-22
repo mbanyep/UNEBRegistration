@@ -1,6 +1,8 @@
 public class Candidate {
     private String candidateName;
     private String schoolName;
+    private String registrationStatus;
+    private String examinationCentre;
 
     private static int examYear;
     private static double registrationFee;
@@ -12,6 +14,13 @@ public class Candidate {
         gradingPolicy = "A to E grading scale";
 
         System.out.println("Static block: loaded UNEB exam settings");
+    }
+
+    {
+        registrationStatus = "Registered";
+        examinationCentre = "Not yet assigned";
+
+        System.out.println("Instance block: initialized candidate defaults");
     }
 
     public Candidate(String candidateName, String schoolName) {
