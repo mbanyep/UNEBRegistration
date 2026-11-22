@@ -20,4 +20,10 @@ public class Candidate {
 
         System.out.println("Constructor: registered " + candidateName);
     }
+
+    public static void displayExamSettings() {
+        System.out.println("Exam year: " + examYear);
+        System.out.println("Registration fee: UGX " + registrationFee);
+        System.out.println("Grading policy: " + gradingPolicy);
+    }
 }
