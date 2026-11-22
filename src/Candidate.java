@@ -48,6 +48,9 @@ public class Candidate {
 
         Candidate candidate1 = new Candidate("Amina", "Kampala Secondary School");
         Candidate candidate2 = new Candidate("Brian", "Jinja High School");
+
+        candidate1.displayCandidateDetails();
+        candidate2.displayCandidateDetails();
     }
 
 }
