@@ -13,6 +13,8 @@ public class Candidate {
         registrationFee = 50000;
         gradingPolicy = "A to E grading scale";
 
+        System.out.println("1. Static block: loaded UNEB exam settings");
+
         System.out.println("Static block: loaded UNEB exam settings");
     }
 
@@ -20,12 +22,16 @@ public class Candidate {
         registrationStatus = "Registered";
         examinationCentre = "Not yet assigned";
 
+        System.out.println("2. Instance block: initialized candidate defaults");
+
         System.out.println("Instance block: initialized candidate defaults");
     }
 
     public Candidate(String candidateName, String schoolName) {
         this.candidateName = candidateName;
         this.schoolName = schoolName;
+
+        System.out.println("3. Constructor: registered " + candidateName);
 
         System.out.println("Constructor: registered " + candidateName);
     }
