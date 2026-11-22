@@ -47,6 +47,7 @@ public class Candidate {
         System.out.println("School: " + schoolName);
         System.out.println("Registration status: " + registrationStatus);
         System.out.println("Examination centre: " + examinationCentre);
+        System.out.println();
     }
 
     public static void main(String[] args) {
